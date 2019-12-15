@@ -1,3 +1,1 @@
 # oNews
-
-![homepage](home.png)

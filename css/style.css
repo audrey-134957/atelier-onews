@@ -1,0 +1,149 @@
+body{
+    max-width: 100%;
+}
+
+.wrapper{
+    position: relative;
+    grid-auto-columns: repeat(2, 1fr);
+}
+
+.section{
+    width: 50%;
+}
+
+.section--left{
+    float: left;
+    background-image: url('../images/student.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header--left,
+.main--left,
+.footer__link,
+.posts-list__tag{
+    color:#FFF;
+}
+
+.header--left{
+    display: flex;
+    align-items: flex-start;
+    margin:0.5rem;
+}
+
+.header__logo{
+    width:30px;
+    padding-top:0.1rem;
+}
+
+.header__heading--left{
+    text-transform: uppercase;
+    width:10rem;
+    margin-left:1rem;
+    font-size:22px;
+    line-height: 1.3rem;
+}
+
+.main--left{
+    text-align: right;
+    width:70%;
+    margin-right:0;
+    margin-left:auto;
+}
+
+.main__effect-words{
+    font-style: italic;
+    font-size:16px;
+    font-weight: 400;
+}
+
+.footer{
+    text-align: right;
+    font-weight: 600;
+    padding: 0;
+}
+
+.footer__list-items{
+    margin: 0;
+}
+
+.footer__item{
+    display: inline;
+    margin:0 1rem;
+}
+
+.section--right{
+    float: right;
+    border-right: 1px solid #d3d3d3;
+}
+
+.header--right{
+    background-color:#F9F9F9;
+    padding: 1rem;
+}
+
+.posts-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+}
+
+.posts-list__post{
+    padding: 1rem;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+
+.posts-list__tag{
+    font-weight:700;
+    text-transform: uppercase;
+    font-size:15px;
+    border-radius:5px;
+    padding: 0.2rem 0.3rem;
+}
+
+.posts-list__tag--news{
+    background-color:#98DC62;
+}
+
+.posts-list__tag--team{
+    background-color: #D94632;
+}
+
+.posts-list__tag--work{
+    background-color: #0A52EF;
+}
+
+.posts-list__post-heading{
+    margin-top:2rem;
+}
+
+.posts-list__author-pprofile-picture{
+    width:30px;
+}
+
+.posts-list__post-infos{
+    margin:1.5rem 0;
+}
+
+.posts-list__publish-infos{
+    color:#808080;
+}
+
+.posts-list__author-username{
+    font-weight: 700 !important;
+    margin-left:1rem;
+    color:#000;
+}
+
+.posts-list__post-link{
+    font-weight:700;
+    text-decoration: underline;
+}
