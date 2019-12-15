@@ -91,12 +91,13 @@ body{
 .posts-list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30rem;
     border-top: 1px solid #d3d3d3;
     border-left: 1px solid #d3d3d3;
 }
 
 .posts-list__post{
-    padding: 1rem;
+    padding: 2rem;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
 }
