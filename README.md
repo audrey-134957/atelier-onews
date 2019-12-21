@@ -1,1 +1,1 @@
-# oNews
+Silence is golden ;)
