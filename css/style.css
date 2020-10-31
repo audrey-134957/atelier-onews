@@ -30,7 +30,7 @@ body {
 .header--left,
 .main--left,
 .footer__link,
-.posts-list__tag {
+.tag {
     color: #fff;
 }
 
@@ -166,7 +166,7 @@ body {
     border-right: 1px solid #d3d3d3;
 }
 
-.posts-list__tag {
+.tag {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 15px;
@@ -174,15 +174,15 @@ body {
     padding: 0.2rem 0.3rem;
 }
 
-.posts-list__tag--news {
+.tag--news {
     background-color: #98dc62;
 }
 
-.posts-list__tag--team {
+.tag--team {
     background-color: #d94632;
 }
 
-.posts-list__tag--work {
+.tag--work {
     background-color: #0a52ef;
 }
 
@@ -190,19 +190,19 @@ body {
     margin-top: 2rem;
 }
 
-.posts-list__author-pprofile-picture {
+.author-profile-picture {
     width: 30px;
 }
 
-.posts-list__post-infos {
+.post-infos {
     margin: 1.5rem 0;
 }
 
-.posts-list__publish-infos {
+.publish-infos {
     color: #808080;
 }
 
-.posts-list__author-username {
+.author-username {
     font-weight: 700 !important;
     margin-left: 1rem;
     color: #000;
@@ -211,4 +211,11 @@ body {
 .posts-list__post-link {
     font-weight: 700;
     text-decoration: underline;
+}
+
+
+/*ARTICLE */
+
+.main--padding{
+    padding:1rem;
 }
