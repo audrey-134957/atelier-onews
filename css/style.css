@@ -208,7 +208,7 @@ body {
     color: #000;
 }
 
-.posts-list__post-link {
+.post-link {
     font-weight: 700;
     text-decoration: underline;
 }
@@ -217,5 +217,5 @@ body {
 /*ARTICLE */
 
 .main--padding{
-    padding:1rem;
+    padding:1.5rem;
 }
